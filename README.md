@@ -6,7 +6,7 @@
 The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
 
 #### Instruction to use
-1. **Open [_`test.py`_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
+1. **Open [_`test.py`_](https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/test.py)**
 2. **Run**
 3. **And a dialog box appears,enter the username or twitter handle of the profile without using '@' symbol**
 4. **Use the slider to set the number of tweets you want to fetch**
@@ -42,26 +42,3 @@ In this file, we store our access token, access token secret, consumer key, and 
 
 <a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we don't have to include it in every file, thus reducing the redundancy.
 
-#### Future Improvements
-* **Maybe we are gonna add a module that will analyze the image which is attached to a tweet. (If available by tweepy or other API)** 
-* **A hashtag analysis section which analysis** **N** ** several tweets and based on the tweets will give sentiments of people in %.Ex:-**  
-  1. **Angry n% Sad n% Happy n%**
-  2. **Positive n% Negative n%**
-
-<ul>
-  
- #### Prerequisite(Personally found these links most helpful)
-<li> <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#:~:text=sklearn.metrics.,set%20of%20labels%20in%20y_true.">accuracy score</a></li>
-<li>	<a href="https://muthu.co/understanding-the-classification-report-in-sklearn/#:~:text=A%20Classification%20report%20is%20used,predictions%20from%20a%20classification%20algorithm.&text=The%20report%20shows%20the%20main,positives%2C%20true%20and%20false%20negatives.">Classification report </a></li>
-<li>	<a href="https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62">Confusion Matrix</a></li>
-<li>	<a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html">TfidVectorizer</a></li>
-<li>	<a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfTransformer.html">TfidTransformer</a></li>
-<li>	<a href="http://kavita-ganesan.com/tfidftransformer-tfidfvectorizer-usage-differences/#.Xu9xuXUzaT_">Difference fidftransformer-tfidfvectorizer</a></li>
-<li>	<a href="https://kavita-ganesan.com/what-are-n-grams/">N-Grams</a></li>
-<li>	<a href="https://kavita-ganesan.com/how-to-use-countvectorizer/#.Xu9m0HUzaT8">CountVectorizer</a></li>
-<li>	<a href="https://www.nltk.org/_modules/nltk/stem/wordnet.html">lemmatization</a></li>
-<li>	<a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a></li>
-<li>	<a href="https://stackoverflow.com/questions/33091376/python-what-is-exactly-sklearn-pipeline-pipeline">Pipleline</a></li>
-<li>	<a href="https://www.geeksforgeeks.org/naive-bayes-classifiers/">naive bayes classifier</a></li>
-<li>	<a href="https://towardsdatascience.com/fit-vs-transform-in-scikit-libraries-for-machine-learning-3c70e6300ded">fit and transform</a></li>
-  </ul>
