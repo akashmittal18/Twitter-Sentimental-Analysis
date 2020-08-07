@@ -5,12 +5,13 @@
 
 The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
 
-#### Instruction to use
-1. **Open [_`test.py`_](https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/test.py)**
-2. **Run**
-3. **And a dialog box appears,enter the username or twitter handle of the profile without using '@' symbol**
-4. **Use the slider to set the number of tweets you want to fetch**
-5. **The result will show up.**
+#### Instructions to run the code
+1. Use command git clone https://github.com/akashmittal18/Twitter-Sentimental-Analysis-.git
+2. **Open [_`test.py`_](https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/test.py)**
+3. **Run**
+4. **And a dialog box appears,enter the username or twitter handle of the profile without using '@' symbol**
+5. **Use the slider to set the number of tweets you want to fetch**
+6. **The result will show up.**
 
 # File Details
 
