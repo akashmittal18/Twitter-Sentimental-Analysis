@@ -1,24 +1,20 @@
-<p align="center">
-  <img src="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/Twitterlogo.png?raw=true">
-</p>
+
 <h1 align="center">Twitter-Sentimental-Analysis</h1>
 
 #### ABOUT
 
-A GUI software for sentimental analysis using python. I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
+The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
 
 #### Instruction to use
 1. **Open [_`test.py`_](https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py)**
 2. **Run**
-3. **When the UI will show up, enter the username of the profile without using @**
-4. **Use the slider to set the number of tweets you wanted to fetch**
+3. **And a dialog box appears,enter the username or twitter handle of the profile without using '@' symbol**
+4. **Use the slider to set the number of tweets you want to fetch**
 5. **The result will show up.**
-
-**Multinomial Naive Bayes, Random Trees Embedding, Random Forest Regressor, Random Forest Classifier, Multinomial Logistic Regression, Linear Support Vector Classifier, Linear Regression, Linear Classifier, Extra Tree Regressor, Extra Tree Classifier, Decision Tree Classifier, Binary Logistic Regression** get training data, testing data with features for which we have to predict our sentiment then we calculate accuracy score, confusion matrix and ROC(Receiver Operating Characteristic) and AUC(Area Under Curve) and return positive or negative emotions.
 
 # File Details
 
-<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
+<a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
 - It is getting the tweet  
 - Removes URL using a regular expression.
 - Removes emoticons using a regular expression.
@@ -29,10 +25,10 @@ A GUI software for sentimental analysis using python. I have used multiple algor
 - Removes extra white spaces.
 - Return preprocessed tweet.
 
-<a href="https://github.com/akbloodadarsh/Negative-Tweet-Reporter-Automatic/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
+<a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/twitter_credentials.py">twitter_credentials.py</a>: 
 In this file, we store our access token, access token secret, consumer key, and consumer secret.
 
-<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/test.py">test.py</a>: 
+<a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/test.py">test.py</a>: 
 - The TwitterAuthenticator class inherits the OAuthHandler class and passes in the credentials to allow access to Twitter’s API features.
 - The TwitterClient class contains all the methods to interact with Twitter API and parsing tweets. Use __init__ function to handle the authentication of the API client.
 - Create a object of class TwitterClient() and use the object to get twitter client API using get_twitter_client_api() function.
@@ -42,9 +38,9 @@ In this file, we store our access token, access token secret, consumer key, and 
 - Then used count Vectorizer to lowercases text, performed tokenization (converts raw text to smaller units of text), used word-level tokenization (meaning each word is treated as a separate token), ignored single characters during tokenization.
 - Now one iterate the tweets and one by one preprocess and transform the tweets and do predictions.
 
-<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/twitter_credentials.py">twitter_credentials.py</a>: In this file we store our access token,access token secret, consumer key and consumer secret.
+<a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/twitter_credentials.py">twitter_credentials.py</a>: In this file we store our access token,access token secret, consumer key and consumer secret.
 
-<a href="https://github.com/akbloodadarsh/Twitter-Sentimental-Analysis/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we don't have to include it in every file, thus reducing the redundancy.
+<a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/AllImport.py">AllImport.py</a>: This contains all the imported modules in one place so that we don't have to include it in every file, thus reducing the redundancy.
 
 #### Future Improvements
 * **Maybe we are gonna add a module that will analyze the image which is attached to a tweet. (If available by tweepy or other API)** 
