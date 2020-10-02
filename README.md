@@ -18,10 +18,12 @@ The project is based on Twitter sentimental analysis using Machine Learning .I h
 <a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
 - It is getting the tweet  
 - Removes URL using a regular expression.
-- Removes emoticons using a regular expression.
+- Removes emoticons using a regular expression. 
+
 - Removes username using a regular expression.
 - Removes digit using a regular expression.
 - Convert more than 2 letter repetitions to 2 letters.
+- 
 - Removes symbols.
 - Removes extra white spaces.
 - Return preprocessed tweet.
