@@ -1,6 +1,7 @@
 
 <h1 align="center">Twitter-Sentimental-Analysis</h1>
 
+
 #### ABOUT
 
 The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
