@@ -1,5 +1,6 @@
 
 <h1 align="center">Twitter-Sentimental-Analysis</h1>
+<<<<<<< HEAD
 <p align="center">
 <a href="https://twitter.com/akash_mittal18" target="blank"><img align="center" src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="akash_mittal18" height="30" width="30" /></a>
 <a href="https://linkedin.com/in/www.linkedin.com/in/akash-mittal-bb063417a" target="blank"><img align="center" src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="www.linkedin.com/in/akash-mittal-bb063417a" height="30" width="30" /></a>
@@ -9,11 +10,19 @@
 <a href="https://dev.to/akashmittal18" target="blank"><img align="center" src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Akash Mittal's DEV Profile" height="30" width="30">
 </a>
 </p>
+=======
+>>>>>>> a8eac8957e283fe23b26e99d32eac0ba302a4a04
 
+
+<<<<<<< HEAD
+The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
+
+=======
 #### ABOUT
 
 The project is based on Twitter sentimental analysis using Machine Learning .I have used multiple algorithms and based on those shown independent outputs of every algorithm. On the CLI we can see the respective accuracy of each algorithm and we can analyze which performed the best. **The user will input a twitter username and the select number of tweets he wants to analyze. Then he/she will run the program and the output will be shown in a separate window for every tweet!**
 
+>>>>>>> a8eac8957e283fe23b26e99d32eac0ba302a4a04
 #### Instructions to run the code
 1. Use command git clone https://github.com/akashmittal18/Twitter-Sentimental-Analysis-.git
 2. **Open [_`test.py`_](https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/test.py)**
@@ -27,10 +36,12 @@ The project is based on Twitter sentimental analysis using Machine Learning .I h
 <a href="https://github.com/akashmittal18/Twitter-Sentimental-Analysis-/blob/master/PreProcess.py">Preprocess.py</a>: It contains preprocessing function which performs following steps:- 
 - It is getting the tweet  
 - Removes URL using a regular expression.
-- Removes emoticons using a regular expression.
+- Removes emoticons using a regular expression. 
+
 - Removes username using a regular expression.
 - Removes digit using a regular expression.
 - Convert more than 2 letter repetitions to 2 letters.
+- 
 - Removes symbols.
 - Removes extra white spaces.
 - Return preprocessed tweet.
